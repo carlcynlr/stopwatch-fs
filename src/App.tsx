@@ -53,7 +53,7 @@ export default function App() {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-black text-white select-none">
-      <div onClick={handleTap} className="text-[20vw] font-mono cursor-pointer absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+      <div onClick={handleTap} className="text-[35vw] cursor-pointer absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         {formatTime(time)}
       </div>
 
