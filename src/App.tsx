@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./index.css";
-import { FaPause, FaRedo } from "react-icons/fa";
+import { FaRedo } from "react-icons/fa";
 
 export default function App() {
   const [time, setTime] = useState(0);
@@ -30,9 +30,9 @@ export default function App() {
     const seconds = Math.floor((time % 60000) / 1000)
       .toString()
       .padStart(2, "0");
-    const milliseconds = Math.floor((time % 1000) / 10)
-      .toString()
-      .padStart(2, "0");
+    // const milliseconds = Math.floor((time % 1000) / 10)
+    //   .toString()
+    //   .padStart(2, "0");
     return `${minutes}:${seconds}`;
   };
 
