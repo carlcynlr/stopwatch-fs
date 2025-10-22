@@ -63,10 +63,7 @@ export default function App() {
           <button onClick={handleReset} className="absolute w-full bottom-12 text-white text-5xl basis-1/2 flex items-center justify-center pointer-cursor">
             <FaRedo />
           </button>
-          <button
-            onClick={handleFullscreen}
-            className="absolute top-4 right-4 text-white/20 text-5xl flex items-center justify-center pointer-cursor"
-          >
+          <button onClick={handleFullscreen} className="absolute top-4 right-4 text-white/20 text-5xl flex items-center justify-center pointer-cursor">
             <MdFullscreen />
           </button>
         </>
